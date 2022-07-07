@@ -22,6 +22,9 @@
 
 
 
+
+
+
 .bg-dark:hover {
     background-color: hsla(220, 50%, 17%, 1);
 }
@@ -33,9 +36,14 @@
 
 
 
-h1 {
-    font-family: 'Barlow', sans-serif;
+
+
+.font-family {
+    font-family: "Barlow", sans-serif;
     font-style: normal;
+}
+
+h1 {
     font-weight: 900;
     font-size: 48px;
     line-height: 48px;
@@ -43,30 +51,22 @@ h1 {
 }
 
 h2 {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 32px;
-    line-height: 36x;
+    line-height: 36px;
 }
 
 h3 {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 24px;
-    line-height: 28x;
+    line-height: 28px;
 }
 
-p {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
-    font-weight: 700;
+.text-size-p {
+    font-weight: 500;
     font-size: 16px;
-    line-height: 26x;
+    line-height: 26px;
 }
-
-
 
 .text-weight {
     font-weight: 700;
@@ -77,23 +77,50 @@ p {
 }
 
 
+
+
+
 .button-specs {
     width: 150px;
     height: 48px;
+    border-radius: 8px;
     display:flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
 
-
-body {
-    padding: 24px 6.4% 50px 6.4%;
+.margin {
+    margin-left: 6.4%;
+    margin-right: 6.4%;
 }
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 24px;
     margin-bottom: 64px;
+}
+
+p {
+    margin-bottom: 32px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.large-keyboard {
+    max-width: 100%;
+    height: 410px;
+    background-image: url(./assets/mobile/image-keyboard.jpg);
+    background-repeat: no-repeat;
+    margin-left: 6.4%;
+    border-radius: 20px 0px 0px 20px;
+    margin-bottom: 24px;
 }
