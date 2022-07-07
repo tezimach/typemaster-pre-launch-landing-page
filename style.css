@@ -1,0 +1,76 @@
+.text-dark {
+    color: hsla(220, 50%, 17%, 1);
+}
+
+.text-grey {
+    color: hsla(221, 23%, 58%, 1);
+}
+
+.text-white {
+    color: hsla(0, 0%, 100%, 1);
+}
+
+
+
+.bg-grey {
+    background-color: hsla(198, 28%, 93%, 1);
+}
+
+.bg-orange {
+    background-color: hsla(22, 88%, 52%, 1);
+}
+
+
+
+.bg-dark:hover {
+    background-color: hsla(220, 50%, 17%, 1);
+}
+
+.bg-light-orange:hover {
+    background-color: hsla(22, 100%, 69%, 1);
+}
+
+
+
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+h2 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36x;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28x;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26x;
+}
+
+
+
+.text-weight {
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
