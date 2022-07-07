@@ -39,6 +39,7 @@ h1 {
     font-weight: 900;
     font-size: 48px;
     line-height: 48px;
+    margin-bottom: 32px;
 }
 
 h2 {
@@ -73,4 +74,26 @@ p {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+
+.button-specs {
+    width: 150px;
+    height: 48px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+body {
+    padding: 24px 6.4% 50px 6.4%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
 }
